@@ -9,7 +9,8 @@ import { Recipe } from '../recipe.model';
 export class RecipeListComponent implements OnInit 
 {  
   recipes: Recipe[] = [
-  new Recipe('A test recipe', 'This is simply a test', 'https://www.thespruceeats.com/thmb/Y444Z8OGcofBJJ7MLFCrwDjcMEI=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/classic-and-easy-chocolate-cake-recipe-995137-hero-01-e361ee51a67d4c12afb451cc48fb1940.jpg)')  
+  new Recipe('A test recipe', 'This is simply a test', 'https://hips.hearstapps.com/del.h-cdn.co/assets/17/31/2048x1024/landscape-1501791674-delish-chicken-curry-horizontal.jpg?resize=980:*'),  
+  new Recipe('A test recipe', 'This is simply a test', 'https://hips.hearstapps.com/del.h-cdn.co/assets/17/31/2048x1024/landscape-1501791674-delish-chicken-curry-horizontal.jpg?resize=980:*')  
 ];
 
   constructor() { }
